@@ -9,7 +9,7 @@ public interface VideoService
 {
     // save video
 
-    Video save(Video video , MultipartFile file);
+     Video save(Video video, MultipartFile file);
 
     // get video by id
       Video get(String videoId);
