@@ -2,5 +2,10 @@
 2. Connected springboot app to mysql
 -----------------
 
-working on creating models
+commands to check the things in table 
+- show databases;
+- use learn
+- show tables
+- select * from yt_courses
+- It will show the data
 
