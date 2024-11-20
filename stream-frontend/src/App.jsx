@@ -16,7 +16,7 @@ function App() {
 
         <VideoUpload />
 
-      <h1> I have commited this change</h1>
+      
       </div>
       
     </>
