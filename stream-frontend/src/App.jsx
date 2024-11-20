@@ -3,15 +3,17 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import VideoUpload from './components/videoUpload'
+import 'flowbite/dist/flowbite.min.css';
+
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <div className="flex flex-col space-y-5 justify-center ">
+      <div className="flex flex-col items-center space-y-9  justify-center py-9 ">
         <h1 className="text-4xl font-bold text-gray-700 dark:text-gray-100">
-          Hello world
+          Video Streaming App
         </h1>
 
         <VideoUpload />
