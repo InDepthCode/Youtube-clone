@@ -3,9 +3,9 @@ import { Card } from 'flowbite-react'; // Ensure this matches your Card componen
 
 function VideoUpload() {
   return (
-    <div className="flex justify-center items-center min-h-screen bg-gray-100">
-      <Card className="max-w-md w-full">
-        <h2 className="text-xl font-bold text-center mb-4">Upload Your Video</h2>
+    <div className="flex justify-center items-center">
+      <Card>
+        <h2 className="text-xl  text-center mb-4 text-white">Upload Your Video</h2>
         <form className="space-y-6">
           {/* Thumbnail Preview */}
           <div className="flex items-center space-x-4">
@@ -26,15 +26,7 @@ function VideoUpload() {
             </label>
           </div>
 
-          {/* Video Upload */}
-          <label className="block">
-            <span className="text-gray-700">Upload Video</span>
-            <input
-              type="file"
-              accept="video/*"
-              className="mt-1 block w-full text-sm text-slate-500 border border-gray-300 rounded-md shadow-sm focus:ring-violet-500 focus:border-violet-500"
-            />
-          </label>
+          
 
           {/* Submit Button */}
           <button
