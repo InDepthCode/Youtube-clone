@@ -6,9 +6,9 @@ function VideoUpload() {
     <div className="flex justify-center items-center">
       <Card>
         <h2 className="text-xl  text-center mb-4 text-white">Upload Your Video</h2>
-        <form className="space-y-6">
+        <form className="space-y-6 ">
           {/* Thumbnail Preview */}
-          <div className="flex items-center space-x-4">
+          <div className="flex items-center space-x-7">
             <div className="shrink-0">
               <img
                 className="h-16 w-16 object-cover rounded-full"
@@ -21,7 +21,7 @@ function VideoUpload() {
               <input
                 type="file"
                 accept="image/*"
-                className="block w-full text-sm text-slate-500 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-violet-50 file:text-violet-700 hover:file:bg-violet-100"
+                className="block w-full text-sm text-slate-500 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-violet-700 file:text-violet-700 hover:file:bg-violet-100"
               />
             </label>
           </div>
